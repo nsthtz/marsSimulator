@@ -12,35 +12,55 @@ public class Hydroponic : MonoBehaviour
     public Hand hand1;
     public Hand hand2;
     public SteamVR_Controller.Device controller;
+    private bool closed;
 
     // Use this for initialization
     void Start()
     {
-
-        Debug.Log(transform.position);
-
-        // transform.position = new Vector3(transform.position.x, transform.position.y + 0.5f, transform.position.z);
-        Debug.Log(transform.position);
+        closed = true;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (controller != null) {
-            // if (controller.GetPressDown( ))
-            { // if left button pressed...
-               /* Ray ray = GetComponent<Camera>().ScreenPointToRay(hand1.transform.position);
-                RaycastHit hit;
-                if (Physics.Raycast(ray, out hit))
+
+        if (hand1.controller != null && hand2.controller != null) {
+            if (hand1.hoveringInteractable != null)
+            {
+                if (hand1.controller.GetPressUp(SteamVR_Controller.ButtonMask.Trigger) && hand1.hoveringInteractable.gameObject.tag == "Lid")
+
+                { 
+                    if (closed) {
+                        transform.position = new Vector3(transform.position.x, transform.position.y + 0.2f, transform.position.z);
+                        closed = false;
+                    } else {
+                        transform.position = new Vector3(transform.position.x, transform.position.y - 0.2f, transform.position.z);
+                        closed = true;
+                    }
+                    
+                }
+
+            } else if (hand2.hoveringInteractable != null) {
+                if (hand2.controller.GetPressUp(SteamVR_Controller.ButtonMask.Trigger) && hand2.hoveringInteractable.gameObject.tag == "Lid")
                 {
-                    // the object identified by hit.transform was clicked
-                    // do whatever you want
-                    transform.position = new Vector3(transform.position.x, transform.position.y + 0.5f, transform.position.z);
-                } */
+                    if (closed)
+                    {
+                        transform.position = new Vector3(transform.position.x, transform.position.y + 0.2f, transform.position.z);
+                        closed = false;
+                    }
+                    else
+                    {
+                        transform.position = new Vector3(transform.position.x, transform.position.y - 0.2f, transform.position.z);
+                        closed = true;
+                    }
+                }
             }
 
-            Debug.Log(controller.GetPressDown( SteamVR_Controller.ButtonMask.Grip));
         }
-       
+        if (hand1.hoveringInteractable != null) {
+            Debug.Log(hand1.hoveringInteractable.gameObject.tag);
+        }
+        
+
     }
 }
