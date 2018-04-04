@@ -18,7 +18,7 @@ public class TextPromptScript : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        text.text = "Aksel er søt";
+        text.text = "";
         
 	}
 	
@@ -31,7 +31,7 @@ public class TextPromptScript : MonoBehaviour {
 	void Update () {
         if (hand1.currentAttachedObject == null && hand2.currentAttachedObject == null)
         {
-            text.text = "Pick up the Air TankPick up the Air Tank awdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd";
+            text.text = "Pick up the Air Tank";
         }
         else if (hand1.currentAttachedObject.gameObject.tag == "AirTank" || hand2.currentAttachedObject.gameObject.tag == "AirTank")
         {
@@ -39,10 +39,8 @@ public class TextPromptScript : MonoBehaviour {
         }
         else
         {
-            text.text = "Pick up the Air Tank awdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd";
+            text.text = "Pick up the Air Tank ";
         }
-
-
 
     }
 }
