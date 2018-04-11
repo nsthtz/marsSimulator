@@ -6,6 +6,8 @@ TagManager:
   tags:
   - AirTank
   - Lid
+  - Basin
+  - Seed
   layers:
   - Default
   - TransparentFX

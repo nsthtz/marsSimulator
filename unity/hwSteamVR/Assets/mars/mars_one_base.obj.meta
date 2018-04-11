@@ -1,0 +1,314 @@
+fileFormatVersion: 2
+guid: 78303af70db1d874f94ffe7141a32035
+timeCreated: 1523432503
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Mars_One1
+    100002: Mars_One1_MeshPart0
+    100004: Mars_One1_MeshPart1
+    100006: Mars_One4
+    100008: Mars_One5
+    100010: Mars_One6
+    100012: Mars_One___antenna
+    100014: Mars_One___flag
+    100016: Mars_One___ground
+    100018: Mars_One___m6
+    100020: Mars_One___module01
+    100022: Mars_One___module02
+    100024: Mars_One___module03
+    100026: Mars_One___module04
+    100028: Mars_One___module05
+    100030: Mars_One___sky
+    100032: //RootNode
+    400000: Mars_One1
+    400002: Mars_One1_MeshPart0
+    400004: Mars_One1_MeshPart1
+    400006: Mars_One4
+    400008: Mars_One5
+    400010: Mars_One6
+    400012: Mars_One___antenna
+    400014: Mars_One___flag
+    400016: Mars_One___ground
+    400018: Mars_One___m6
+    400020: Mars_One___module01
+    400022: Mars_One___module02
+    400024: Mars_One___module03
+    400026: Mars_One___module04
+    400028: Mars_One___module05
+    400030: Mars_One___sky
+    400032: //RootNode
+    2300000: Mars_One1_MeshPart0
+    2300002: Mars_One1_MeshPart1
+    2300004: Mars_One4
+    2300006: Mars_One5
+    2300008: Mars_One6
+    2300010: Mars_One___antenna
+    2300012: Mars_One___flag
+    2300014: Mars_One___ground
+    2300016: Mars_One___m6
+    2300018: Mars_One___module01
+    2300020: Mars_One___module02
+    2300022: Mars_One___module03
+    2300024: Mars_One___module04
+    2300026: Mars_One___module05
+    2300028: Mars_One___sky
+    3300000: Mars_One1_MeshPart0
+    3300002: Mars_One1_MeshPart1
+    3300004: Mars_One4
+    3300006: Mars_One5
+    3300008: Mars_One6
+    3300010: Mars_One___antenna
+    3300012: Mars_One___flag
+    3300014: Mars_One___ground
+    3300016: Mars_One___m6
+    3300018: Mars_One___module01
+    3300020: Mars_One___module02
+    3300022: Mars_One___module03
+    3300024: Mars_One___module04
+    3300026: Mars_One___module05
+    3300028: Mars_One___sky
+    4300000: Mars_One1_MeshPart0
+    4300002: Mars_One1_MeshPart1
+    4300004: Mars_One4
+    4300006: Mars_One5
+    4300008: Mars_One6
+    4300010: Mars_One___antenna
+    4300012: Mars_One___flag
+    4300014: Mars_One___ground
+    4300016: Mars_One___m6
+    4300018: Mars_One___module01
+    4300020: Mars_One___module02
+    4300022: Mars_One___module03
+    4300024: Mars_One___module04
+    4300026: Mars_One___module05
+    4300028: Mars_One___sky
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 01
+    second: {fileID: 2100000, guid: a3431258cb8f8884381d37b3010b68f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 02
+    second: {fileID: 2100000, guid: 49fcd6a3645c9e04c9378b2f336d83be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 03
+    second: {fileID: 2100000, guid: a6367f86d2da1d2448fe8adf3b6d580f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 04
+    second: {fileID: 2100000, guid: 1246eab4699a01a4a897e583035b5848, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 05
+    second: {fileID: 2100000, guid: f2a23fde7b62e4f4fa8dcba1355b43e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 06
+    second: {fileID: 2100000, guid: 3355d48f429f69247a20f133f162716a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 07
+    second: {fileID: 2100000, guid: 3d32d7f52edbd364089d5a50bd393774, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 08
+    second: {fileID: 2100000, guid: 108c4948647649840bde08d05c65b026, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 09
+    second: {fileID: 2100000, guid: 34d02f700432a6747a98145ff6da7afd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 10
+    second: {fileID: 2100000, guid: c4d1afeafeb5fc14d8f372ed06e6ca2c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 11
+    second: {fileID: 2100000, guid: 28c031c15e7d7ad4db3f6ca283d3be9b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 12
+    second: {fileID: 2100000, guid: f1428114c5a566b4392bad2b0ae69473, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 13
+    second: {fileID: 2100000, guid: e3b7279efe31fb0498ee1751bcc1059f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 14
+    second: {fileID: 2100000, guid: c1a048e5ede5f1e4daa1a2bdc800d38a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 15
+    second: {fileID: 2100000, guid: 3b6aee7a8e75820458a4087335cfc408, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 16
+    second: {fileID: 2100000, guid: 9535cc1f32076e64781f29c6d519684b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 17
+    second: {fileID: 2100000, guid: 39e256c417587114db297601b74acbf7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 18
+    second: {fileID: 2100000, guid: bf5738fb840463f41abdf78a37ce8b74, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 19
+    second: {fileID: 2100000, guid: 9c2d8510abcaeac47b7fd0566561c8a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 20
+    second: {fileID: 2100000, guid: bae70f4465698964194b934a8a815dc1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 21
+    second: {fileID: 2100000, guid: c583fefafb6a50a409609fa79fc2e40c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 22
+    second: {fileID: 2100000, guid: e3637047b8772114084e9992a7f204f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 23
+    second: {fileID: 2100000, guid: c1145817704ecd14196909b4a0dd7718, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 24
+    second: {fileID: 2100000, guid: 3121dbf4da6be02499e1e07fe886a81e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 25
+    second: {fileID: 2100000, guid: 733022bf184fae346b3cc8bbf0abe8bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 26
+    second: {fileID: 2100000, guid: e0d085b96f8daba44a665763c8076c1e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 27
+    second: {fileID: 2100000, guid: bd7d97a1c02161340a6422fd22f107ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 28
+    second: {fileID: 2100000, guid: e28f7c53bdf1528409bde2807be3213a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 30
+    second: {fileID: 2100000, guid: 1cec4b2becb43b74992f0d181b205c7a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 31
+    second: {fileID: 2100000, guid: 2d219c82777d545458aa8db67d16e047, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -12,13 +12,15 @@ public class Hydroponic : MonoBehaviour
     public Hand hand1;
     public Hand hand2;
     public SteamVR_Controller.Device controller;
-    private bool closed;
+    public bool closed;
+    
 
     // Use this for initialization
     void Start()
     {
         closed = true;
     }
+
 
     // Update is called once per frame
     void Update()
@@ -29,7 +31,7 @@ public class Hydroponic : MonoBehaviour
             {
                 if (hand1.controller.GetPressUp(SteamVR_Controller.ButtonMask.Trigger) && hand1.hoveringInteractable.gameObject.tag == "Lid")
 
-                { 
+                {
                     if (closed) {
                         transform.position = new Vector3(transform.position.x, transform.position.y + 0.2f, transform.position.z);
                         closed = false;
@@ -57,9 +59,9 @@ public class Hydroponic : MonoBehaviour
             }
 
         }
-        if (hand1.hoveringInteractable != null) {
+ /*       if (hand1.hoveringInteractable != null) {
             Debug.Log(hand1.hoveringInteractable.gameObject.tag);
-        }
+        } */
         
 
     }
