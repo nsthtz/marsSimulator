@@ -7,10 +7,10 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: 07 - Default
-  m_Shader: {fileID: 4800000, guid: 63dbc813078be2947aff78517a521367, type: 3}
+  m_Shader: {fileID: 4800000, guid: b5edf302c53987a47ba2d905c391ec9a, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
+  m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
@@ -72,5 +72,5 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.5882353, g: 0.5882353, b: 0.5882353, a: 1}
+    - _Color: {r: 0.32331312, g: 0.40000865, b: 0.47794116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
