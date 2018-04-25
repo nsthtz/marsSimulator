@@ -51,6 +51,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\_MK\MKGlassFree\Editor\MKGlassFreeEditor.cs" />
+     <Compile Include="Assets\InstantGui\Scripts\Editor\Elements\InstantGuiButtonEditor.cs" />
+     <Compile Include="Assets\InstantGui\Scripts\Editor\Elements\InstantGuiInputTextEditor.cs" />
+     <Compile Include="Assets\InstantGui\Scripts\Editor\Elements\InstantGuiListEditor.cs" />
+     <Compile Include="Assets\InstantGui\Scripts\Editor\Elements\InstantGuiPopupEditor.cs" />
+     <Compile Include="Assets\InstantGui\Scripts\Editor\Elements\InstantGuiSliderEditor.cs" />
+     <Compile Include="Assets\InstantGui\Scripts\Editor\Elements\InstantGuiTabsEditor.cs" />
+     <Compile Include="Assets\InstantGui\Scripts\Editor\Elements\InstantGuiTextAreaEditor.cs" />
+     <Compile Include="Assets\InstantGui\Scripts\Editor\Elements\InstantGuiToggleEditor.cs" />
+     <Compile Include="Assets\InstantGui\Scripts\Editor\Elements\InstantGuiWindowEditor.cs" />
+     <Compile Include="Assets\InstantGui\Scripts\Editor\InstantGuiEditor.cs" />
+     <Compile Include="Assets\InstantGui\Scripts\Editor\InstantGuiElementEditor.cs" />
+     <Compile Include="Assets\InstantGui\Scripts\Editor\InstantGuiInspector.cs" />
+     <Compile Include="Assets\InstantGui\Scripts\Editor\InstantGuiStyleSetEditor.cs" />
      <Compile Include="Assets\SteamVR\Editor\SteamVR_Editor.cs" />
      <Compile Include="Assets\SteamVR\Editor\SteamVR_Preferences.cs" />
      <Compile Include="Assets\SteamVR\Editor\SteamVR_RenderModelEditor.cs" />
@@ -58,15 +72,39 @@
      <Compile Include="Assets\SteamVR\Editor\SteamVR_SkyboxEditor.cs" />
      <Compile Include="Assets\SteamVR\Editor\SteamVR_Update.cs" />
      <None Include="Assets\SteamVR\Resources\SteamVR_Fade.shader" />
+     <None Include="Assets\culloff2.shader" />
      <None Include="Assets\SteamVR\Resources\SteamVR_ClearAll.shader" />
+     <None Include="Assets\_MK\MKGlassFree\Shader\MKGlassCommonFree.shader" />
      <None Include="Assets\SteamVR\InteractionSystem\Hints\Shaders\ControllerButtonHints.shader" />
+     <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Common\MKGlassInc.cginc" />
+     <None Include="Assets\cull off.shader" />
+     <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Meta\MKGlassMetaIO.cginc" />
+     <None Include="Assets\Water.shader" />
      <None Include="Assets\SteamVR\InteractionSystem\Teleport\Shaders\Highlight.shader" />
+     <None Include="Assets\ButtonShader.shader" />
+     <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Surface\MKGlassSurface.cginc" />
+     <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Meta\MKGlassMeta.cginc" />
+     <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Common\MKGlassLight.cginc" />
+     <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Forward\MKGlassForward.cginc" />
+     <None Include="Assets\_MK\MKGlassFree\Shader\Inc\VertexLit\MKGlassVertexLitIO.cginc" />
+     <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Forward\MKGlassForwardIO.cginc" />
+     <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Common\MKGlassDef.cginc" />
+     <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Common\MKGlassV.cginc" />
+     <None Include="Assets\_MK\MKGlassFree\Shader\MKGlassFree.shader" />
+     <None Include="Assets\Basic Metal Texture Pack\readme.txt" />
+     <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Forward\MKGlassForwardAddSetup.cginc" />
+     <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Forward\MKGlassForwardBaseSetup.cginc" />
      <None Include="Assets\SteamVR\Resources\SteamVR_SphericalProjection.shader" />
+     <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Meta\MKGlassMetaSetup.cginc" />
      <None Include="Assets\SteamVR\Resources\SteamVR_AlphaOut.shader" />
+     <None Include="Assets\_MK\MKGlassFree\Shader\glass2.shader" />
      <None Include="Assets\SteamVR\readme.txt" />
      <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\Silhouette.shader" />
+     <None Include="Assets\_MK\MKGlassFree\Shader\Inc\VertexLit\MKGlassVertexLitSetup.cginc" />
      <None Include="Assets\SteamVR\Resources\SteamVR_ColorOut.shader" />
      <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\SeeThru.shader" />
+     <None Include="Assets\_MK\MKGlassFree\Shader\Inc\VertexLit\MKGlassVertexLit.cginc" />
+     <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Surface\MKGlassSurfaceIO.cginc" />
      <None Include="Assets\SteamVR\InteractionSystem\Readme_InteractionSystem.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity 2017.2.0f3-MRTP/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
